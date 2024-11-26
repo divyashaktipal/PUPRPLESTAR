@@ -1,0 +1,27 @@
+.social-icons a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #394146;
+    /* Twitter Blue - change it for other icons */
+    border-radius: 50%;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.social-icons a:hover {
+    background-color: #25384a;
+    /* Hover effect color */
+}
+
+.social-icons i {
+    font-size: 20px;
+    /* Adjust icon size */
+}
+
+.social-icons a {
+    margin-right: 10px;
+    /* Adjust the gap as needed */
+}
